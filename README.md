@@ -1,28 +1,25 @@
-<p align="center">
-  <img alt="Repository Last Commit Date" src="https://img.shields.io/github/last-commit/psatler/reactjs-redux-sagas?color=blue">
 
-  <a href="https://www.linkedin.com/in/pablosatler/">
-    <img alt="Made by Pablo Satler" src="https://img.shields.io/badge/made%20by-Pablo%20Satler-blue">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/github/license/psatler/reactjs-redux-sagas?color=blue">
-
-</p>
 
 > E-Commerce like app showcasing react, hooks, redux and redux-sagas
 
-## How to run
+## How to run (Steps)
 
 ```
-git clone https://github.com/psatler/reactjs-redux-sagas
-cd reactjs-redux-sagas
-yarn (or npm install)
-yarn start (or npm start)
+1. git clone https://github.com/anil-pradhan143/imss-shopping-cart.git
+2. Enter "cd imss-shopping-cart.git"
+3. Install all dependencies by entering command "yarn install" or "npm install"
+4. start json server for fake API by entering command "yarn jsonserver"  or "npm run jsonserver"
+5. to execute or run the project enter "yarn start" or "npm start"
 ```
 
-To get the fake api running, open another terminal and run `yarn jsonserver` so it will serve the `server.json` file as our API. This is being served on port `:3333`.
+
+## Fake API server details
+To get the fake api running, open another terminal and run `yarn jsonserver` or  `npm run jsonserver` so it will serve the `server.json` file as our API. This is being served on port `:3333`.
 
 PS: you can access the routes from the fake api at, for example (on localhost), at `http://localhost:3333/products`, `http://localhost:3333/stock`. You can even access an specific product by passing its id as at `http://localhost:3333/products/3`. See more details on the _Json Server_ repository (link below). You can also add a delay to the response by using the `-d` flag followed by the amount of delay you want in miliseconds.
+
+
+
 
 ## Some dependencies/tools used
 
@@ -34,7 +31,7 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
 -   [Font Roboto](https://fonts.google.com/specimen/Roboto?selection.family=Roboto)
 -   [React Icons](https://react-icons.netlify.com/#/)
 -   [Polished](https://polished.js.org/) to darken some colors
--   [Json-server](https://github.com/typicode/json-server) to fake our API
+-   [Json-server](https://github.com/typicode/json-server) to fake our API (we could use fetch api but dont have json placeholder url)
 -   [Javascript's INTL](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) to perform localization when formatting the price
 -   [Reactotron](https://github.com/infinitered/reactotron) to debug the application's state
 -   [Immer](https://github.com/immerjs/immer) which allow us to use mutable methods to create the next immutable state
@@ -47,14 +44,14 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
 
 <p align="center">
   <!-- <img width="460" height="300" src="./screenshots/main-page.png"> -->
-  <img src="./screenshots/shopping-cart-1.png">
+  <img src="./screenshots/imss-shopping-cart-1.png">
 </p>
 
 2. Cart route (`/cart`)
 
 <p align="center">
   <!-- <img width="460" height="300" src="./screenshots/main-page.png"> -->
-  <img src="./screenshots/shopping-cart-2.png">
+  <img src="./screenshots/imss-shopping-cart-2.png">
 </p>
 
 ## License
