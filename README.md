@@ -44,14 +44,14 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
 
 <p align="center">
   <!-- <img width="460" height="300" src="./screenshots/main-page.png"> -->
-  <img src="./screenshots/imss-shopping-cart-1.png">
+  <img src="./screenshots/HomePage/HomePage.png">
 </p>
 
 2. Cart route (`/cart`)
 
 <p align="center">
   <!-- <img width="460" height="300" src="./screenshots/main-page.png"> -->
-  <img src="./screenshots/imss-shopping-cart-2.png">
+  <img src="./screenshots/Cart/Cart.png">
 </p>
 
 ## License
