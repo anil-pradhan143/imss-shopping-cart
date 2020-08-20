@@ -1,0 +1,68 @@
+{
+    "stock": [
+        {
+            "id": 1,
+            "amount": 3
+        },
+        {
+            "id": 2,
+            "amount": 5
+        },
+        {
+            "id": 3,
+            "amount": 2
+        },
+        {
+            "id": 4,
+            "amount": 1
+        },
+        {
+            "id": 5,
+            "amount": 5
+        },
+        {
+            "id": 6,
+            "amount": 10
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "title": "OnePlus Nord 5G (Gray Onyx, 8GB RAM, 128GB Storage)",
+            "price": 27999.00,
+            "image": "https://m.media-amazon.com/images/I/719CgfLcqNL._AC_UY218_.jpg"
+        },
+        {
+            "id": 2,
+            "title": "OnePlus Nord 5G (Blue Marble, 12GB RAM, 256GB Storage)",
+            "price": 27999.00,
+            "image": "https://m.media-amazon.com/images/I/71sZ1HdUJoL._AC_UY218_.jpg"
+        },
+        {
+            "id": 3,
+            "title": "OnePlus 8 (Glacial Green 6GB RAM+128GB Storage)",
+            "price": 41999.00,
+            "image": "https://m.media-amazon.com/images/I/619iTNHSCGL._AC_UY218_.jpg"
+        },
+    
+        {
+            "id": 5,
+            "title": "OnePlus 8 (Glacial Green 6GB RAM+128GB Storage)",
+            "price": 41999.00,
+            "image": "https://m.media-amazon.com/images/I/61CDmSor1fL._AC_UY218_.jpg"
+        },
+        {
+            "id": 6,
+            "title": "OnePlus 8 (Onyx Black 8GB RAM+128GB Storage)",
+            "price": 44999.00,
+            "image": "https://m.media-amazon.com/images/I/61UeA7TUrkL._AC_UY218_.jpg"
+        },
+        {
+            "id": 4,
+            "title": "OnePlus Buds (White)",
+            "price": 4990,
+            "image": "https://m.media-amazon.com/images/I/61IgqbMF98L._AC_UY218_.jpg"
+        }
+       
+    ]
+}
