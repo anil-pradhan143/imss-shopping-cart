@@ -27,7 +27,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "jsonserver": "json-server server.json -p 3333 -w"
+        "jsonserver": "json-server server.json -p 4000 -w"
     },
     "browserslist": {
         "production": [
