@@ -56,7 +56,7 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
 
 ## Screenshots React js Task 2 : 
 
-1. Main route (`/`)
+1. Beneficiary route (`/beneficiary`)
 
 <p align="center">
   <!-- <img width="460" height="300" src="./screenshots/main-page.png"> -->
