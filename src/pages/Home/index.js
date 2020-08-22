@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { FaCartPlus } from 'react-icons/fa';
-import api from '../../services/api';
 import { formatPrice } from '../../util/format';
-
 import * as CartActions from '../../store/modules/cart/actions';
-
 import { ProductList } from './styles';
 
 export default function Home() {
@@ -24,16 +21,7 @@ export default function Home() {
     })
     // replacing componentDidMount
     useEffect(() => {
-
-        // creating another function to be able to use async directive
-        //   function loadProducts() {
-        // const response = await api.get('products');
         dispatch(CartActions.requestApiData());
-        // and instead of setState, we use setProducts now
-        // setProducts(data);
-        //}
-
-        // loadProducts();
     }, []);
 
     function handleAddProduct(id) {
@@ -42,9 +30,6 @@ export default function Home() {
 
         // after adding a product to cart, redux saga navigates to the /cart page. This happens
         // at the generator addToCart
-
-        // const { dispatch } = this.props;
-        // dispatch(CartActions.addToCart(product));
     }
 
     return (

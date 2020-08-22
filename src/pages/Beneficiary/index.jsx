@@ -193,7 +193,7 @@ const getOrgHierarchy = (payBeneficiary, acc) => {
   orgHierarchy: getOrgHierarchy(pb, []),
 }))
  setOutput(result);
-console.log(output)
+
     }
 
     // replacing componentDidMount
