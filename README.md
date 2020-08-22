@@ -14,9 +14,9 @@
 
 
 ## Fake API server details
-To get the fake api running, open another terminal and run `yarn jsonserver` or  `npm run jsonserver` so it will serve the `server.json` file as our API. This is being served on port `:3333`.
+To get the fake api running, open another terminal and run `yarn jsonserver` or  `npm run jsonserver` so it will serve the `server.json` file as our API. This is being served on port `:4000`.
 
-PS: you can access the routes from the fake api at, for example (on localhost), at `http://localhost:3333/products`, `http://localhost:3333/stock`. You can even access an specific product by passing its id as at `http://localhost:3333/products/3`. See more details on the _Json Server_ repository (link below). You can also add a delay to the response by using the `-d` flag followed by the amount of delay you want in miliseconds.
+PS: you can access the routes from the fake api at, for example (on localhost), at `http://localhost:4000/products`, `http://localhost:4000/stock`. You can even access an specific product by passing its id as at `http://localhost:4000/products`. See more details on the _Json Server_ repository (link below). You can also add a delay to the response by using the `-d` flag followed by the amount of delay you want in miliseconds.
 
 
 
@@ -38,7 +38,7 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
 -   [React Toastify](https://github.com/fkhadra/react-toastify) to display notifications on screen
 -   [History](https://www.npmjs.com/package/history) to control the browser's history api. We use this inside the `<Router>` component and in the saga to navigate the user after the api call ends
 
-## Screenshots React js Taskl : 
+## Screenshots React js Task l : 
 
 1. Main route (`/`)
 
@@ -54,7 +54,7 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
   <img src="./screenshots/Cart/Cart.png">
 </p>
 
-## Screenshots React js Task2 : 
+## Screenshots React js Task 2 : 
 
 1. Main route (`/`)
 
@@ -119,33 +119,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
