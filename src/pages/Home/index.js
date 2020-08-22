@@ -6,7 +6,6 @@ import * as CartActions from '../../store/modules/cart/actions';
 import { ProductList } from './styles';
 
 export default function Home() {
-    //  const [products, setProducts] = useState([]);
     const dispatch = useDispatch();
     const amount = useSelector(state =>
         state.cart.reduce((sumAmount, product) => {

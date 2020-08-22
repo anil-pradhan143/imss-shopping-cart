@@ -173,7 +173,7 @@ export default function Home() {
   };
   var input = inputData;
 
-  // Implemented Using Find function 
+  // Implemented Using Find function with external JSON file
 
   function getOrgHierarchyLogic1() {
 
@@ -205,7 +205,7 @@ export default function Home() {
     toast.success("Logic 1 output rendered successfully")
 
   }
-  // implemented using reduce function
+  // implemented using reduce function with internal JSON
   function getOrgHierarchyLogic2() {
 
     const payBeneficiaryLookupById = payBeneficiaries.reduce(
