@@ -67,20 +67,6 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
 
 ## License
 
-This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) © Pablo Satler 2019
-
-&emsp;
-
-&emsp;
-
-&emsp;
-
-&emsp;
-
-&emsp;
-
----
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
