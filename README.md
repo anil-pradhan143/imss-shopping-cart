@@ -38,7 +38,7 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
 -   [React Toastify](https://github.com/fkhadra/react-toastify) to display notifications on screen
 -   [History](https://www.npmjs.com/package/history) to control the browser's history api. We use this inside the `<Router>` component and in the saga to navigate the user after the api call ends
 
-## Screenshots
+## Screenshots React js Taskl : 
 
 1. Main route (`/`)
 
@@ -53,6 +53,17 @@ PS: you can access the routes from the fake api at, for example (on localhost), 
   <!-- <img width="460" height="300" src="./screenshots/main-page.png"> -->
   <img src="./screenshots/Cart/Cart.png">
 </p>
+
+## Screenshots React js Task2 : 
+
+1. Main route (`/`)
+
+<p align="center">
+  <!-- <img width="460" height="300" src="./screenshots/main-page.png"> -->
+  <img src="./screenshots/Baneficiary/Beneficiary.png">
+</p>
+
+
 
 ## License
 
