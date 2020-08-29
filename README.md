@@ -1,19 +1,19 @@
 
 
-> E-Commerce like app showcasing react, hooks, redux and redux-sagas
+> E-Commerce like app showcasing react, hooks, redux and redux-sagas (Assignment)
 
 ## How to run (Steps)
 
 ```
 1. git clone https://github.com/anil-pradhan143/imss-shopping-cart.git
-2. Enter "cd imss-shopping-cart.git"
+2. Enter "cd imss-shopping-cart"
 3. Install all dependencies by entering command "yarn install" or "npm install"
 4. start json server for fake API by entering command "yarn jsonserver"  or "npm run jsonserver"
 5. to execute or run the project enter "yarn start" or "npm start"
 ```
 
 
-## Fake API server details
+## Dummy API server details
 To get the fake api running, open another terminal and run `yarn jsonserver` or  `npm run jsonserver` so it will serve the `server.json` file as our API. This is being served on port `:4000`.
 
 PS: you can access the routes from the fake api at, for example (on localhost), at `http://localhost:4000/products`, `http://localhost:4000/stock`. You can even access an specific product by passing its id as at `http://localhost:4000/products`. See more details on the _Json Server_ repository (link below). You can also add a delay to the response by using the `-d` flag followed by the amount of delay you want in miliseconds.
